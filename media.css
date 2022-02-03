@@ -1,0 +1,184 @@
+/*SECCIÓN 0: HEADER*/
+@media screen and (max-width: 600px) {
+   
+    header {
+        flex-direction: column;
+    }
+
+    header a#contenedor-logo {
+        margin-bottom: 12px;
+    }
+
+    header ul {
+        justify-content: space-between;
+    }
+
+}
+
+/*SECCIÓN 1: ABOUTUS*/
+@media screen and (max-width: 600px){
+   
+    #texto_principal{
+       padding-right: 24px;
+       padding-left: 24px;
+       margin: 0px;
+    }
+
+    #texto_principal h2{
+        margin-top: 50px;
+        margin-bottom: 8px;
+    }
+
+}
+
+/*SECCIÓN 2: FASTFACTS*/
+@media screen and (max-width: 600px){
+
+    #contenedor_fastfacts{
+        margin: 40px, -24px, 0px;
+        padding: 32px, 24px, 40px;
+    }
+
+    #contenedor_padre_fastfacts{
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        column-gap: 12px; 
+    }
+
+    #contenedor_padre_fastfacts .nota{
+        margin-top: 40px;
+    }
+
+}
+
+/*SECCIÓN 3: FOUNDERS*/
+@media screen and (max-width: 600px){
+    
+    .imagenes_fundadores img{
+        width: 125%;
+    }
+
+    .imagenes_fundadores{
+        margin-bottom: -60px;
+    }
+
+}
+
+/*SECCIÓN 4: THE AIRBNB STORY*/
+@media screen and (max-width: 600px){
+
+    #story{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #año_seleccion{
+        display:flex;
+        justify-content: flex-start;
+    }
+
+    #hijo_story h2{
+        margin-top: 40px;
+    }
+
+    #fecha{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenes_fechas{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/*SECCIÓN 0: HEADER*/
+@media screen and (max-width: 768px) {
+   
+    header {
+        flex-direction: row;
+    }
+
+    header a#contenedor-logo {
+        margin-bottom: 12px;
+    }
+
+    header ul {
+        justify-content: space-between;
+    }
+
+}
+
+/*SECCIÓN 1: ABOUTUS*/
+@media screen and (max-width: 768px){
+   
+    #texto_principal{
+       padding-right: 20%;
+       padding-left: 20%;
+       margin: 0px;
+    }
+
+    #texto_principal h2{
+        margin-top: 50px;
+        margin-bottom: 8px;
+    }
+
+}
+
+
+/*SECCIÓN 2: FASTFACTS*/
+@media screen and (max-width: 768px){
+
+    #contenedor_fastfacts{
+        margin: 40px, -24px, 0px;
+        padding: 32px, 24px, 40px;
+    }
+
+    #contenedor_padre_fastfacts{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 50px;
+        overflow-x: scroll;
+        column-gap: 12px; 
+    }
+
+    #contenedor_padre_fastfacts .nota{
+        margin-top: 40px;
+    }
+
+}
+
+/*SECCIÓN 3: FOUNDERS*/
+@media screen and (max-width: 768px){
+
+    #media_founders{
+        display: flex;
+    }
+    
+    .imagenes_fundadores img{
+        width: 125%;
+    }
+
+    .imagenes_fundadores{
+        margin-bottom: -60px;
+    }
+
+}
+
+/*SECCIÓN 4: THE AIRBNB STORY*/
+@media screen and (max-width: 768px){
+   
+    #fecha h3{
+        font-size: 18px;
+    }
+
+    #fecha p{
+        font-size: 14px;
+        color: #222;
+    }
+
+}
